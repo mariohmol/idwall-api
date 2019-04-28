@@ -1,5 +1,5 @@
 const superagent = require('superagent');
-const token = 'seutoken';
+const token = process.env.IDWALL_TOKEN || 'seutoken';
 
 
 
